@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <style>
+        body {
+            background-color: #0e092e;
+            color: #c6c3dc;
+        }
+        a {
+            background-color: #c6c3dc;
+            color: #2a2357;
+            padding: 7px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color, text-decoration 0.1s;
+        }
+        a:hover {
+            background-color: #ffffff;
+            color: #2a2357;
+            padding: 7px;
+            border-radius: 25px;
+            text-decoration: underline;
+            transition: background-color, text-decoration 0.1s;
+        }
+        table, th, td {
+            border: 2px solid #575083;
+            color: #c6c3dc;
+            border-collapse: collapse;
+            padding: 7px;
+            background-color: #1b163e;
+        }
+        table {
+            margin: 5px;
+            border: solid 5px;
+        }
+        td {
+            font-weight: bolder;
+            transition: background-color 0.1s;
+        }
+        td:hover {
+            background-color: #2a2357;
+            transition: background-color 0.1s;
+        }
+        .link-basic {
+            background-color: #c6c3dc;
+            color: #2a2357;
+            padding: 7px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color, text-decoration 0.1s;
+        }
+        .link-basic:hover {
+            background-color: #ffffff;
+            color: #2a2357;
+            padding: 7px;
+            border-radius: 25px;
+            text-decoration: underline;
+            transition: background-color, text-decoration 0.1s;
+        }
+        th {
+            font-size: larger;
+            background-color: #0e092e;
+            color: white;
+        }
+        .btn-basic {
+            background-color: blue;
+            color: white;
+            font-weight: lighter;
+            padding: 7px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color, font-size 0.1s;
+        }
+        .btn-basic:hover {
+            background-color: #4444f3;
+            color: white;
+            font-weight: bolder;
+            font-size: large;
+            padding: 7px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color, font-size 0.1s;
+        }
+        li {
+            margin: 0px 0px 15px -25px;
+            list-style-type: none;
+        }
+        ul {
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Банк</h1>
+    <p>Главная страница</p>
+    <ul>
+        <li><a class="btn-basic" href="/accounts/">Счета</a></li>
+        <li><a class="btn-basic" href="/transactions/">Транзакции</a></li>
+        <li><a class="btn-basic" href="/transactions/create/">Новая транзакция</a></li>
+        <li><a class="btn-basic" href="/accounts/create/">Открыть новый счёт</a></li>
+    </ul>
+</body>
+</html>
